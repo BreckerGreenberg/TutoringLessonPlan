@@ -1,11 +1,1 @@
-x = 1
-if x == 1:
-    # indented four spaces
-    print("x is 1.")
-
-print("Hello, World")
-
-ourArray = [0, 1, 2, 3, 4, 5]
-
-for (int in ourArray):
-    print(int)
+print("Hello world")
