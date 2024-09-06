@@ -1,2 +1,2 @@
 # TutoringLessonPlan
-Lesson Plan's Brecker 
+Brecker's Lesson Plan 
