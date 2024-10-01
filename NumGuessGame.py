@@ -7,14 +7,18 @@ playing = True
 score = 0
 
 while(playing):
-    user_input = int((input("Enter a number between 0 and 4:")))
+    user_input = input("Enter a number between 0 and 4:")
+
+    if user_input=="x":
+        break
 
     random_number = random.randint(0, 5)
 
-    if (user_input == random_number):
-        print("Thats the ticket!")
+    if (int(user_input) == random_number):
+        score= score + 1
+        print("gorlock likes mcyds")
     else:
-        print("Maybe this isn't for you..")
+        print("nonono beta..")
 
     print("\nEnter X to quit.")
-
+    print (score)
